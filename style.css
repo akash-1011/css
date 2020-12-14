@@ -1,0 +1,102 @@
+.row-main{
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.col1 {
+    background-color: #3b0679;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.col2 {
+    background-color: #4b228b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #dcd6e8;
+}
+
+.left-top > img {
+    /* object-fit: cover; */
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+
+.left-top > p {
+    margin: 5px;
+}
+
+.display-4 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.left-bottom > img {
+    object-fit: cover;
+    width: 500px;
+}
+
+input {
+    text-align: center;
+    border-radius: 50px !important;
+    font-size: 1.5rem !important;
+    border: 1px solid #9c9c9c !important; 
+    color: white !important;
+    line-height: 2 !important;
+    background-color: transparent !important;
+    width: 75% !important;
+}
+
+.dialpad {
+    display: flex;
+    flex-direction: column;
+}
+
+.dialpad > .col {
+    padding: 30px;
+}
+
+.number {
+    border: 2px solid whitesmoke;
+    padding: 20px 25px 20px 25px;
+    margin: 10px;
+    color: whitesmoke;
+    width: 70px;
+    height: 70px;
+    font-size: 21px;
+}
+
+.last {
+    background-color: #df0028;
+    border: none;
+}
+
+i {
+    margin-left: -5px;
+}
+
+footer {
+    color: #9487bb;
+}
+
+@media (max-width: 576px) {
+    .row-main {
+        display: flex;
+        flex-direction: column;
+    }
+}
